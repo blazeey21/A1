@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _direction: {x: 0, y: 1}
-  _impulse: 6
+  _impulse: 5
 --- !u!50 &630339735
 Rigidbody2D:
   serializedVersion: 4
@@ -562,6 +562,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 684214253}
     m_Modifications:
     - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3283835cebd1714478e54622f2119828, type: 3}
+    - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -663,6 +667,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 684214253}
     m_Modifications:
+    - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 93d41f9769607b7448e99f1b524f8d6f, type: 3}
     - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -829,7 +837,6 @@ MonoBehaviour:
   _prefabs:
   - {fileID: 5159174393068658102, guid: ad8ef54bfd8049d4897b25e7ec388cca, type: 3}
   - {fileID: 2441028125726398853, guid: 5642e6fa2b16b3f4ca9300a14e245155, type: 3}
-  - {fileID: 2441028125726398853, guid: c6cf7b75751c3f24f8a2992f330f8279, type: 3}
 --- !u!4 &1846705571
 Transform:
   m_ObjectHideFlags: 0
@@ -887,6 +894,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 684214253}
     m_Modifications:
+    - target: {fileID: 425411769921067916, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c07218dd1e0bca40953b12bbed4f16c, type: 3}
     - target: {fileID: 2408924363467627011, guid: 1c6c6f512f88e494b94d7c75aff56805, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16
